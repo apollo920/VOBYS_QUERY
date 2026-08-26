@@ -1,0 +1,24 @@
+SELECT 
+    'FUNPREV' ORGAO,
+    TA.CODIGO,
+    EE.CHAVE_VOBYS,
+    CASE
+        WHEN EE.STATUS_VOBYS = 'P' THEN 'Pendente'
+        WHEN EE.STATUS_VOBYS = 'A' THEN 'Assinado'
+        WHEN EE.STATUS_VOBYS = 'T' THEN 'Transmitido'
+        WHEN EE.STATUS_VOBYS = 'E' THEN 'Erro'
+        WHEN EE.STATUS_VOBYS = 'R' THEN 'Aprovado'
+        WHEN EE.STATUS_VOBYS = 'G' THEN 'Aguardando Processamento'
+        WHEN EE.STATUS_VOBYS = 'M' THEN 'Em preenchimento'
+        WHEN EE.STATUS_VOBYS = 'X' THEN 'Excluido'
+    END STATUS,
+    EE.RECIBO,
+    'https://siape.sead.pi.gov.br/org/funprev/esocial/envio/eventos/evento/' || EE.ID_ESOCIAL_EVENTO LINK,
+    'UPDATE SW_FUNPREV.ESOCIAL_EVENTO EE SET EE.STATUS_VOBYS = ''P'' WHERE ID_ESOCIAL_EVENTO = ' || EE.ID_ESOCIAL_EVENTO || ';' AS UPDATE_
+FROM
+    SW_FUNPREV.ESOCIAL_EVENTO EE
+    JOIN SW_PUBLICO.ESB_TIPO_ARQUIVO_ESOCIAL TA ON TA.ID_ESB_TIPO_ARQUIVO_ESOCIAL = EE.ID_ESOCIAL_TIPO_ARQUIVO
+WHERE
+    TA.CODIGO IN ('S-2410')
+    AND EE.STATUS_VOBYS = 'M';
+    
