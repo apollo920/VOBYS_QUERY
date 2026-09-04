@@ -56,7 +56,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA R ON R.ID_RUBRICA = FR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 6
+            AND FO.MES = 8
             AND FO.ANO = 2026
             AND (
                 R.COD_RUBRICA IN (714100, 714110)
