@@ -57,7 +57,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -106,7 +106,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -155,7 +155,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -204,7 +204,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -253,7 +253,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -302,7 +302,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -351,7 +351,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -400,7 +400,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -449,7 +449,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -498,7 +498,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -547,7 +547,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -596,7 +596,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -645,7 +645,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -694,7 +694,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -743,7 +743,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -792,7 +792,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -841,7 +841,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -890,7 +890,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -939,7 +939,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -988,7 +988,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1037,7 +1037,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1086,7 +1086,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1135,7 +1135,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1184,7 +1184,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1233,7 +1233,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1282,7 +1282,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1331,7 +1331,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1380,7 +1380,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1429,7 +1429,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1478,7 +1478,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1527,7 +1527,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1576,7 +1576,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1625,7 +1625,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1674,7 +1674,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1723,7 +1723,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1772,7 +1772,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1821,7 +1821,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1870,7 +1870,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1919,7 +1919,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -1968,7 +1968,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2017,7 +2017,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2066,7 +2066,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2115,7 +2115,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2164,7 +2164,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2213,7 +2213,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2262,7 +2262,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2311,7 +2311,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2360,7 +2360,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2409,7 +2409,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2458,7 +2458,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2507,7 +2507,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2556,7 +2556,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2605,7 +2605,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2654,7 +2654,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2703,7 +2703,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2752,7 +2752,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -2978,7 +2978,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3025,7 +3025,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3072,7 +3072,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3119,7 +3119,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3166,7 +3166,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3213,7 +3213,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3260,7 +3260,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3307,7 +3307,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3354,7 +3354,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3401,7 +3401,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3448,7 +3448,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3495,7 +3495,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3542,7 +3542,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3589,7 +3589,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3636,7 +3636,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3683,7 +3683,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3730,7 +3730,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3777,7 +3777,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3824,7 +3824,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3871,7 +3871,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3918,7 +3918,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -3965,7 +3965,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4012,7 +4012,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4059,7 +4059,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4106,7 +4106,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4153,7 +4153,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4200,7 +4200,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4247,7 +4247,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4294,7 +4294,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4341,7 +4341,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4388,7 +4388,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4435,7 +4435,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4482,7 +4482,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4529,7 +4529,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4576,7 +4576,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4623,7 +4623,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4670,7 +4670,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4717,7 +4717,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4764,7 +4764,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4811,7 +4811,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4858,7 +4858,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4905,7 +4905,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4952,7 +4952,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -4999,7 +4999,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5046,7 +5046,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5093,7 +5093,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5140,7 +5140,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5187,7 +5187,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5234,7 +5234,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5281,7 +5281,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5328,7 +5328,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5375,7 +5375,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5422,7 +5422,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5469,7 +5469,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5516,7 +5516,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5563,7 +5563,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5775,7 +5775,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5811,7 +5811,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5847,7 +5847,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5883,7 +5883,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5919,7 +5919,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5955,7 +5955,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -5991,7 +5991,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6027,7 +6027,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6063,7 +6063,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6099,7 +6099,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6135,7 +6135,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6171,7 +6171,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6207,7 +6207,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6243,7 +6243,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6279,7 +6279,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6315,7 +6315,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6351,7 +6351,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6387,7 +6387,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6423,7 +6423,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6459,7 +6459,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6495,7 +6495,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6531,7 +6531,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6567,7 +6567,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6603,7 +6603,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6639,7 +6639,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6675,7 +6675,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6711,7 +6711,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6747,7 +6747,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6783,7 +6783,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6819,7 +6819,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6855,7 +6855,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6891,7 +6891,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6927,7 +6927,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6963,7 +6963,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -6999,7 +6999,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7035,7 +7035,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7071,7 +7071,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7107,7 +7107,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7143,7 +7143,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7179,7 +7179,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7215,7 +7215,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7251,7 +7251,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7287,7 +7287,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7323,7 +7323,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7359,7 +7359,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7395,7 +7395,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7431,7 +7431,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7467,7 +7467,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7503,7 +7503,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7539,7 +7539,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7575,7 +7575,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7611,7 +7611,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7647,7 +7647,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7683,7 +7683,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7719,7 +7719,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7755,7 +7755,7 @@ WITH TABELA_AUX AS (
             JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
         WHERE
             FO.ID_TIPO_FOLHA = 1000000
-            AND FO.MES = 7
+            AND FO.MES = 9
             AND FO.ANO = 2026
             AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
             AND FI.ID_REGIME IN (2, 1000003)
@@ -7956,7 +7956,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -7992,7 +7992,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8028,7 +8028,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8064,7 +8064,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8100,7 +8100,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8136,7 +8136,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8172,7 +8172,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8208,7 +8208,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8244,7 +8244,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8280,7 +8280,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8316,7 +8316,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8352,7 +8352,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8388,7 +8388,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8424,7 +8424,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8460,7 +8460,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8496,7 +8496,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8532,7 +8532,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8568,7 +8568,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8604,7 +8604,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8640,7 +8640,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8676,7 +8676,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8712,7 +8712,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8748,7 +8748,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8784,7 +8784,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8820,7 +8820,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8856,7 +8856,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8892,7 +8892,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8928,7 +8928,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -8964,7 +8964,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9000,7 +9000,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9036,7 +9036,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9072,7 +9072,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9108,7 +9108,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9144,7 +9144,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9180,7 +9180,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9216,7 +9216,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9252,7 +9252,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9288,7 +9288,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9324,7 +9324,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9360,7 +9360,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9396,7 +9396,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9432,7 +9432,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9468,7 +9468,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9504,7 +9504,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9540,7 +9540,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9576,7 +9576,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9612,7 +9612,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9648,7 +9648,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9684,7 +9684,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9720,7 +9720,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9756,7 +9756,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9792,7 +9792,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9828,7 +9828,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9864,7 +9864,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9900,7 +9900,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -9936,7 +9936,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10149,7 +10149,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10196,7 +10196,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10243,7 +10243,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10290,7 +10290,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10337,7 +10337,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10384,7 +10384,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10431,7 +10431,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10478,7 +10478,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10525,7 +10525,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10572,7 +10572,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10619,7 +10619,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10666,7 +10666,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10713,7 +10713,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10760,7 +10760,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10807,7 +10807,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10854,7 +10854,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10901,7 +10901,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10948,7 +10948,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -10995,7 +10995,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11042,7 +11042,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11089,7 +11089,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11136,7 +11136,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11183,7 +11183,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11230,7 +11230,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11277,7 +11277,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11324,7 +11324,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11371,7 +11371,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11418,7 +11418,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11465,7 +11465,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11512,7 +11512,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11559,7 +11559,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11606,7 +11606,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11653,7 +11653,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11700,7 +11700,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11747,7 +11747,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11794,7 +11794,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11841,7 +11841,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11888,7 +11888,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11935,7 +11935,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -11982,7 +11982,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12029,7 +12029,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12076,7 +12076,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12123,7 +12123,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12170,7 +12170,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12217,7 +12217,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12264,7 +12264,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12311,7 +12311,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12358,7 +12358,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12405,7 +12405,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12452,7 +12452,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12499,7 +12499,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12546,7 +12546,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12593,7 +12593,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12640,7 +12640,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12687,7 +12687,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12734,7 +12734,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -12968,7 +12968,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13015,7 +13015,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13062,7 +13062,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13109,7 +13109,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13156,7 +13156,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13203,7 +13203,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13250,7 +13250,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13297,7 +13297,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13344,7 +13344,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13391,7 +13391,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13438,7 +13438,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13485,7 +13485,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13532,7 +13532,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13579,7 +13579,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13626,7 +13626,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13673,7 +13673,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13720,7 +13720,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13767,7 +13767,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13814,7 +13814,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13861,7 +13861,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13908,7 +13908,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -13955,7 +13955,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14002,7 +14002,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14049,7 +14049,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14096,7 +14096,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14143,7 +14143,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14190,7 +14190,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14237,7 +14237,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14284,7 +14284,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14331,7 +14331,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14378,7 +14378,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14425,7 +14425,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14472,7 +14472,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14519,7 +14519,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14566,7 +14566,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14613,7 +14613,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14660,7 +14660,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14707,7 +14707,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14754,7 +14754,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14801,7 +14801,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14848,7 +14848,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14895,7 +14895,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14942,7 +14942,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -14989,7 +14989,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15036,7 +15036,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15083,7 +15083,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15130,7 +15130,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15177,7 +15177,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15224,7 +15224,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15271,7 +15271,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15318,7 +15318,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15365,7 +15365,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15412,7 +15412,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15459,7 +15459,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15506,7 +15506,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
@@ -15553,7 +15553,7 @@ WITH TABELA_AUX AS (
                 JOIN SW_PUBLICO.FOLHA_RUBRICA FR ON FR.ID_RUBRICA = FFR.ID_RUBRICA
             WHERE
                 FO.ID_TIPO_FOLHA = 1000000
-                AND FO.MES = 7
+                AND FO.MES = 9
                 AND FO.ANO = 2026
                 AND REGEXP_LIKE(FO.CHAVE_FOLHA, '-100|-110|-120|-200')
                 AND FI.ID_REGIME IN (2, 1000003)
