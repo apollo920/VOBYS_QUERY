@@ -1,7 +1,7 @@
 CLEAR SCREEN;
 
 DECLARE
-    MES                       VARCHAR2(7) := 9;
+    MES                       VARCHAR2(7) := 10;
     ANO                       VARCHAR2(7) := 2026;
     QRY                       VARCHAR2(32767);
     QRY_DIV                   VARCHAR2(32767);

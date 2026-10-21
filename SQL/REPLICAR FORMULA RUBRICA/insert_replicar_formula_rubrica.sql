@@ -32,7 +32,7 @@ FROM
 WHERE
     FO.MES = 10
     AND FO.ANO = 2026
-    AND FO.CHAVE_FOLHA = '10/2026-100'
+    AND FO.CHAVE_FOLHA = '10/2026-300'
     AND NOT EXISTS (
         SELECT
             1
