@@ -1,5 +1,5 @@
 SELECT 
-    'DEFENSORIA PÃºblica do Estado do PiauÃ­' AS "nomeUnidGestOuEntidade",
+    'Defensoria Pública do Estado do Piauí' AS "nomeUnidGestOuEntidade",
     '350101' AS "codigoUnidGestSiafOuEquivalente",
     REPLACE(REPLACE(REPLACE(E.CNPJ, '.', ''), '/', ''), '-', '') AS "cnpjPagador",
     FC.NOME AS "nomeServidor",
@@ -45,13 +45,13 @@ FROM
     LEFT JOIN SW_DEFENSORIA.RHB_PERFIL P ON P.ID_PERFIL = FP.ID_PERFIL
     LEFT JOIN SW_PUBLICO.RHB_PERFIL_DIVISAO PD ON PD.ID_DIVISAO = P.ID_DIVISAO
 WHERE 
-    FC.MES = 8
+    FC.MES = 9
     AND FC.ANO = 2026
     AND R.TIPO IN ('R', 'D')
     AND FC.ID_PENSIONISTA_PA IS NULL
     AND FC.ID_ESTAGIARIO IS NULL
 GROUP BY
-    'DEFENSORIA PÃºblica do Estado do PiauÃ­',
+    'Defensoria Pública do Estado do Piauí',
     '350101',
     E.CNPJ,
     FC.NOME,
@@ -76,7 +76,7 @@ GROUP BY
     FC.CONTA_CORRENTE
 UNION ALL
 SELECT 
-    'Defensoria PÃºblica do Estado do PiauÃ­' AS "nomeUnidGestOuEntidade",
+    'Defensoria Pública do Estado do Piauí' AS "nomeUnidGestOuEntidade",
     '350101' AS "codigoUnidGestSiafOuEquivalente",
     REPLACE(REPLACE(REPLACE(E.CNPJ, '.', ''), '/', ''), '-', '') AS "cnpjPagador",
     FC.NOME AS "nomeServidor",
@@ -115,13 +115,13 @@ FROM
     LEFT JOIN SW_PUBLICO.RHB_CEP_MUNICIPIO_IBGE CM ON CM.ID_MUNICIPIO = L.ID_MUNICIPIO
     JOIN SW_PUBLICO.EMPRESA E ON E.SIGLA = 'DEFENSORIA'
 WHERE 
-    FC.MES = 8
+    FC.MES = 9
     AND FC.ANO = 2026
     AND R.TIPO IN ('R', 'D')
     AND FC.ID_ESTAGIARIO IS NOT NULL
     AND FC.ID_PENSIONISTA_PA IS NULL
 GROUP BY
-    'DEFENSORIA PÃºblica do Estado do PiauÃ­',
+    'Defensoria Pública do Estado do Piauí',
     '350101',
     E.CNPJ,
     FC.NOME,
@@ -190,7 +190,7 @@ FROM
     LEFT JOIN SW_DEFENSORIA.RHB_PERFIL P ON P.ID_PERFIL = FP.ID_PERFIL
     LEFT JOIN SW_PUBLICO.RHB_PERFIL_DIVISAO PD ON PD.ID_DIVISAO = P.ID_DIVISAO
 WHERE 
-    FC.MES = 8
+    FC.MES = 9
     AND FC.ANO = 2026
     AND R.TIPO IN ('R', 'D')
     AND FC.ID_PENSIONISTA_PA IS NOT NULL

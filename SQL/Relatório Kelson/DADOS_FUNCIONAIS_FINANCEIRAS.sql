@@ -23,11 +23,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -71,7 +71,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -101,11 +101,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -149,7 +149,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -179,11 +179,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -227,7 +227,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -257,11 +257,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -305,7 +305,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -335,11 +335,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -383,7 +383,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -413,11 +413,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -461,7 +461,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -491,11 +491,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -539,7 +539,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -569,11 +569,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -617,7 +617,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -647,11 +647,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -695,7 +695,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -725,11 +725,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -773,7 +773,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -803,11 +803,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -851,7 +851,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -881,11 +881,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -929,7 +929,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -959,11 +959,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1007,7 +1007,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1037,11 +1037,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1085,7 +1085,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1115,11 +1115,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1163,7 +1163,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1193,11 +1193,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1241,7 +1241,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1271,11 +1271,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1319,7 +1319,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1349,11 +1349,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1397,7 +1397,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1427,11 +1427,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1475,7 +1475,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1505,11 +1505,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1553,7 +1553,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1583,11 +1583,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1631,7 +1631,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1661,11 +1661,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1709,7 +1709,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1739,11 +1739,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1787,7 +1787,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1817,11 +1817,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1865,7 +1865,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1895,11 +1895,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -1943,7 +1943,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -1973,11 +1973,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2021,7 +2021,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2051,11 +2051,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2099,7 +2099,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2129,11 +2129,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2177,7 +2177,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2207,11 +2207,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2255,7 +2255,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2285,11 +2285,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2333,7 +2333,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2363,11 +2363,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2411,7 +2411,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2441,11 +2441,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2489,7 +2489,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2519,11 +2519,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2567,7 +2567,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2597,11 +2597,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2645,7 +2645,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2675,11 +2675,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2723,7 +2723,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2753,11 +2753,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2801,7 +2801,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2831,11 +2831,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2879,7 +2879,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2909,11 +2909,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -2957,7 +2957,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -2987,11 +2987,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3035,7 +3035,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3065,11 +3065,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3113,7 +3113,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3143,11 +3143,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3191,7 +3191,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3221,11 +3221,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3269,7 +3269,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3299,11 +3299,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3347,7 +3347,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3377,11 +3377,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3425,7 +3425,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3455,11 +3455,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3503,7 +3503,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3533,11 +3533,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3581,7 +3581,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3611,11 +3611,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3659,7 +3659,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3689,11 +3689,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3737,7 +3737,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3767,11 +3767,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3815,7 +3815,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3845,11 +3845,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3893,7 +3893,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -3923,11 +3923,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -3971,7 +3971,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4001,11 +4001,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4049,7 +4049,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4079,11 +4079,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4127,7 +4127,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4157,11 +4157,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4205,7 +4205,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4235,11 +4235,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4283,7 +4283,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4313,11 +4313,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4361,7 +4361,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4391,11 +4391,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4439,7 +4439,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4469,11 +4469,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4517,7 +4517,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4547,11 +4547,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4595,7 +4595,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4625,11 +4625,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4673,7 +4673,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4703,11 +4703,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4751,7 +4751,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4781,11 +4781,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4829,7 +4829,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4859,11 +4859,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4907,7 +4907,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -4937,11 +4937,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -4985,7 +4985,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5015,11 +5015,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5063,7 +5063,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5093,11 +5093,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5141,7 +5141,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5171,11 +5171,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5219,7 +5219,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5249,11 +5249,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5297,7 +5297,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5327,11 +5327,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5375,7 +5375,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)
@@ -5405,11 +5405,11 @@ SELECT
     TF.NOME_TIPO_FUNCIONARIO TIPO_FUNCIONARIO,
     CASE
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V1' THEN
-            'Regime Geral da PrevidÃªncia Social'
+            'Regime Geral da Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V2' THEN
-            'Regime PrÃ³prio de PrevidÃªncia Social'
+            'Regime Próprio de Previdência Social'
         WHEN IG.IND_ESOCIAL_REG_PREV = 'V3' THEN
-            'Regime de PrevidÃªncia Social no Exterior'
+            'Regime de Previdência Social no Exterior'
     END REGIME_PREVIDENCIARIO,
     FS.DESCRICAO_FONTE,
     FO.CHAVE_FOLHA,
@@ -5453,7 +5453,7 @@ FROM
     JOIN SW_PUBLICO.PESSOA_ENDERECO PEN ON PEN.ID_PESSOA = FC.ID_PESSOA
     LEFT JOIN SW_PUBLICO.PESSOA_EMAIL E ON E.ID_PESSOA = FC.ID_PESSOA
 WHERE
-    FC.MES = 9
+    FC.MES = 10
     AND FC.ANO = 2026
     AND FO.ID_TIPO_FOLHA = 1000000
     AND (R.TIPO IN ('R', 'D') OR R.COD_RUBRICA = 999997)

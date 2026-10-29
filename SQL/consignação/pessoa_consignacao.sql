@@ -30,7 +30,7 @@ BEGIN
             SW_PUBLICO.EMPRESA
         WHERE
             DATA_EXTINCAO IS NULL
-            AND SIGLA NOT IN ('REENVIO','SEDUC_PRECATORIO')
+            --AND SIGLA NOT IN ('REENVIO','SEDUC_PRECATORIO')
     ) LOOP
         IF QRY IS NOT NULL THEN
             DBMS_OUTPUT.PUT_LINE(' UNION ALL ');
@@ -65,6 +65,7 @@ BEGIN
             SW_PUBLICO.EMPRESA
         WHERE
             DATA_EXTINCAO IS NULL
+            AND SIGLA NOT IN ('REENVIO','SEDUC_PRECATORIO')
     ) LOOP
         IF QRY IS NOT NULL THEN
             DBMS_OUTPUT.PUT_LINE(' UNION ALL ');
@@ -89,7 +90,7 @@ BEGIN
                || MES
                || ' AND FO.ANO = '
                || ANO
-               || ' AND FO.IND_LANCAR_CONSIGNACOES = ''S'' AND FF.IND_REMUNERACAO = ''S'' AND P.ID_DIVISAO NOT IN ('
+               || ' AND FO.IND_LANCAR_CONSIGNACOES = ''S'' AND FF.IND_REMUNERACAO = ''S'' AND P.ID_SITUACAO NOT IN (1000001) AND P.ID_DIVISAO NOT IN ('
                || IDS_DIVISAO_DESCONSIDERAR
                || ')';
 
